@@ -1,0 +1,113 @@
+body {
+    background-color: #671CCF;
+}
+
+.main-ctn {
+    background-color: #170058;
+    border-radius: 15px;
+    box-shadow: -5px 4px 20px 0px;
+    height: 600px;
+    max-width: 1000px;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.img-ctn {
+    background-color: #2BDCFF;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    position: relative;
+    bottom: -30px;
+    margin-left: 22px
+}
+
+.img-ctn img {
+    height: 30px;
+    width: 30px;
+    margin-left: 5px;
+    margin-top: 4px;
+    position: absolute;
+}
+
+.img-ctn h3 {
+    color: #2BDCFF;
+    position: absolute;
+    margin-left: 45px;
+    margin-top: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.header {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #2BDCFF;
+    text-align: center;
+    margin-bottom: 0;
+    font-size: 4em;
+}
+
+.para {
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.btn-main {
+    /* display: flex; */
+    justify-content: center;
+    text-align: center;
+    margin: 30px
+}
+
+.btn-1 {
+    background-color: #2BDCFF;
+    color: white;
+    border-radius: 30px;
+    height: 50px;
+    width: 120px;
+    margin-right: 10px;
+    border: none;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.btn-1:hover {
+    background-color: #f4511e;
+}
+
+.btn-2 {
+    background-color: #2BDCFF;
+    color: white;
+    border-radius: 30px;
+    height: 50px;
+    width: 120px;
+    border: none;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.btn-2:hover {
+    background-color: #f4511e;
+}
+
+#content {
+    padding: 80px;
+}
+
+.main-search {
+    position: relative;
+    display: flex;
+    justify-content: center;
+
+}
+
+.search {
+    width: 900px;
+    height: 40px;
+    margin-top: 35px;
+    margin-left: auto;
+    border-radius: 30px;
+    border: 0;
+    text-align: center;
+}
